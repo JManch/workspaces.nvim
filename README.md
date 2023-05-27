@@ -1,3 +1,10 @@
+Minimal fork of the original plugin that only functions as a simple workspace
+picker. Use a telescope UI select plugin such as
+[telescope-ui-select.nvim](https://github.com/nvim-telescope/telescope-ui-select.nvim)
+for telescope support. This fork adds the ability to open a workspace globally,
+locally, or in the current tab, by providing a `global`, `local` or `tab`
+argument to the `WorkspacesOpen` command
+
 # workspaces.nvim
 
 a simple plugin to manage workspace directories in neovim
